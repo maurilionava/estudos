@@ -52,6 +52,7 @@ Funções
     len() - retornar o tamanho da string
     id() - ? verificar o identificador da variável na memória
     input() - receber dado digitado pelo usuário no terminal em formato str
+    string.count(x) - verificar quantidade de vezes que termo aparece na string
 
 Classes
     type()
@@ -121,8 +122,23 @@ print('-' * 10)
 aux = 'xp' not in xpto # False
 aux = '1' not in xpto # True
 
-#49 introdução ao try e except para capturar erros (exceptions)
+#49 try...except para capturar erros (exceptions)
 try:
     ...
-except:
-    print('Houve uma exceção')
+except Exception as error:
+    print(error)
+
+# while laço de repetição
+condicao = True
+
+while condicao:
+    break
+    continue
+    ...
+
+while condicao:
+    break
+    continue
+    ...
+else:
+    print('Sera impresso se nao houver instruçao break no laço while')
