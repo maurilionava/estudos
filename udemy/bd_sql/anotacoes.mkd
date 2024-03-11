@@ -1,1 +1,3 @@
 #criação de vm
+#o que é o banco de dados: arquivos salvos em hd
+#padrão mvc model view controller

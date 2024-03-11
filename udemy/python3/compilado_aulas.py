@@ -41,6 +41,16 @@ Operadores relacionais (de comparação)
     ==  igual
     !=  diferente
 
+Operadores de atribuição
+    =
+    +=
+    -=
+    *=
+    /=
+    //=
+    **=
+    %=
+    
 Precedência de operadores aritméticos
     1. ()
     2. **
