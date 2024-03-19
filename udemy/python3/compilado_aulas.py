@@ -144,3 +144,33 @@ while condicao:
     break
     continue
 
+# 72 for in
+palavra = 'xpto'
+
+for letra in palavra:
+    print(letra)
+
+# 73 for range
+# range(start, stop, step)
+numeros = range(10) # 1:10 range(0,10)
+numeros = range(5, 10) # 5:10 range(5,10)
+numeros = range(5, 10, 2) # 5:10 range(5,10,2)
+
+for numero in numeros:
+    print(numero)
+
+# 74 iterável & iterador & __iter__
+# 'dumder' iter
+    
+# 75 for else break continue
+for(numero) in numeros:
+    print(numero)
+
+    if numero == 1:
+        continue
+
+    if numero == 2:
+        break
+    
+else:
+    print('For completo com sucesso')
