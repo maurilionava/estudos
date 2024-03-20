@@ -1,3 +1,29 @@
 #criação de vm
 #o que é o banco de dados: arquivos salvos em hd
 #padrão mvc model view controller
+
+tipos de modelagem
+    conceitual - conversa informal, rascunho
+    lógica - programa de modelagem: brmodelo
+    física - linha de código, scripts de banco
+
+áreas de conhecimento
+    tuning
+        oltp
+            ad
+            dba
+        olap
+            bi
+            ds
+
+tipos de dados
+    caracteres literais
+        char - mais performático devido a não dinamicidade
+        varchar (variable character field) menos performático devido a dinamicidade
+    numeros
+        int - máximo de 11 dígitos min -2147483648 max +2147483647 ou 4294967295
+        float - float(10,2) float(7,3) 7 casas no total, sendo 3 após a vírgula
+    fotos, documentos, etc.
+        blobs
+    grandes textos
+        text
